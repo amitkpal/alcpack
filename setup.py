@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
      long_description=fh.read()
 
 setup(name='alcpack',
-     version='1.01',
+     version='0.1',
      description='Adaptive Local Complementation Packages',
      long_description=long_description,
      long_description_content_type="text/markdown",
