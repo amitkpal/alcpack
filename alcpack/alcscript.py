@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-
-
 # Adaptive Local Complementation Package
 # @author: amitsweb
 # 2019
