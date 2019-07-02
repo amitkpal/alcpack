@@ -2,13 +2,13 @@
 
 A python package to create an edge between any two given nodes in a simple, connected, and undirected graph via a sequence of local complementation operations.
 
-### Requirements
+## Requirements
 
 `ALCPack` is developed based on [**Python 3.0**](https://www.python.org/download/releases/3.0/) (or more recent releases), and uses [**NetworkX**](https://networkx.github.io) -- A python package to analyze complex networks
 
 
 
-### Installation
+## Installation
 
 To install `ALCPack` using [**pip**](https://pip.pypa.io/en/stable/):
 
@@ -22,7 +22,7 @@ To install `ALCPack` using [**pip**](https://pip.pypa.io/en/stable/):
 The steps to build the package locally for installation via [**pip**](https://pip.pypa.io/en/stable/) are given in **ALCPack_References**, available in the *documentation* folder. 
 
 
-### Description 
+## Description 
 
 `ALCPack` provides three functions, as listed below.
 
@@ -35,7 +35,7 @@ The steps to build the package locally for installation via [**pip**](https://pi
 Details of the functions along with essential background information and comprehensive examples are availale in  **ALCPack_References**. 
 
 
-### Use
+## Use
 
 To call `ALCPack` functions in the Python 3.0 (or higher) environment, 
 
@@ -53,7 +53,7 @@ To use `ALCPack` functions in the Python 3.0 (or higher) environment,
 
 The parameters used in the functions are as below.
 
-**Inputs**
+**Input**
 
 G: Networkx graph
    Input parameter
@@ -64,7 +64,7 @@ path: List of nodes
 target: Node
         Input parameter -- represents a node with respect to which the local complementation operation is performed
         
-**Inputs**        
+**Output**        
    
 H: NetworkX graph
    Output parameter -- transformed graph due to ALCPack functions
