@@ -62,11 +62,13 @@ The parameters used in the functions are as below.
 
 >
 >**path**: List of nodes, Input parameter
+>
 >Represents a path between a source (first node in 'path') and a destination (last node in 'path')
 >
  
 > 
 >**target**: Node, Input parameter
+>
 >Represents a node with respect to which the local complementation operation is performed
 >
 
@@ -74,17 +76,20 @@ The parameters used in the functions are as below.
 **Output**        
    
 >   
->**H**: NetworkX graph, Output parameter 
+>**H**: NetworkX graph, Output parameter
+>
 >Transformed graph due to ALCPack functions
 >
 
 >
 >**n**: Integer, Output parameter 
+>
 >Takes value 1 or 2, represents the category of the input 'path'
 >
 
 >
 >**newpath**: List of nodes, Output parameter
+>
 >Category 1 path
 >
          
