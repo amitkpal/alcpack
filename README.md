@@ -41,13 +41,3 @@ To call `ALCPack` functions in the Python 3.0 (or higher) environment,
 
 Details of the functions along with essential background information and comprehensive examples are availale in  **ALCPack_References**. 
 
-
-### Citation
-```
-@article{amaro2019,
-  author = 	"David Amaro and Markus Müller and Amit Kumar Pal",
-  title = 	"Scalable characterization of localizable entanglement in noisy topological quantum codes",
-  year = 	"2019",
-  month =   "July"
-}
-```
