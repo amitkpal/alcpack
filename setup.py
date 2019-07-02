@@ -6,11 +6,12 @@ with open("README.md", "r") as fh:
      long_description=fh.read()
 
 setup(name='alcpack',
-     version='1.0.1',
+     version='1.1.1',
      description='Adaptive Local Complementation Package',
      long_description=long_description,
      long_description_content_type="text/markdown",
      classifiers=[
+         "Programming Language :: Python :: 3.0"
          "Programming Language :: Python :: 3.5",
          "Programming Language :: Python :: 3.6",
          "Programming Language :: Python :: 3.7",
