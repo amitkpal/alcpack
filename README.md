@@ -22,13 +22,6 @@ To install `ALCPack` using [**pip**](https://pip.pypa.io/en/stable/):
 The steps to build the package locally for installation via [**pip**](https://pip.pypa.io/en/stable/) are given in **ALCPack_References**, available in the *documentation* folder. 
 
 
-### Use
-
-To call `ALCPack` functions in the Python 3.0 (or higher) environment, 
-
->\>\>\> import alcpack as alc
-
-
 ### Description 
 
 `ALCPack` provides three functions, as listed below.
@@ -41,3 +34,45 @@ To call `ALCPack` functions in the Python 3.0 (or higher) environment,
 
 Details of the functions along with essential background information and comprehensive examples are availale in  **ALCPack_References**. 
 
+
+### Use
+
+To call `ALCPack` functions in the Python 3.0 (or higher) environment, 
+
+>\>\>\> import alcpack as alc
+
+To use `ALCPack` functions in the Python 3.0 (or higher) environment, 
+
+>
+>\>\>\> H=alc.local_complementation(G,target)
+>
+>\>\>\> n,newpath=alc.path_category(G,path)
+>
+>\>\>\> H=alc.alc_function(G,path)
+>
+
+The parameters used in the functions are as below.
+
+**Inputs**
+
+G: Networkx graph
+   Input parameter
+  
+path: List of nodes 
+      Input parameter -- represents a path between a source (first node in 'path') and a target (last node in 'path')
+      
+target: Node
+        Input parameter -- represents a node with respect to which the local complementation operation is performed
+        
+**Inputs**        
+   
+H: NetworkX graph
+   Output parameter -- transformed graph due to ALCPack functions
+         
+n: Integer
+   Output parameter -- takes value 1 or 2, represents the category of the input 'path'
+  
+newpath: List of nodes 
+         Output parameter -- category 1 path 
+         
+See **ALCPack_References** for more details.          
