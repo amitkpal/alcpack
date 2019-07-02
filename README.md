@@ -4,7 +4,7 @@ A python package to create an edge between any two given nodes in a simple, conn
 
 ### Requirements
 
-ALCPack is developed based on **Python 3.0** (or more recent releases), and uses **NetworkX** -- A python package to analyze complex networks
+ALCPack is developed based on [**Python 3.0**](https://www.python.org/download/releases/3.0/) (or more recent releases), and uses [**NetworkX**](https://networkx.github.io) -- A python package to analyze complex networks
 
 
 
@@ -19,10 +19,9 @@ To install ALCPack using **pip**:
 >
 
 
-The steps to build the package locally for installation via **pip** are given in **ALCPack_References**, available in the *documentation* folder 
+The steps to build the package locally for installation via **pip** are given in [**ALCPack_References**](documentation/alcpack_references.pdf), available in the *documentation* folder 
 
 
-### Usage
 
 
 
