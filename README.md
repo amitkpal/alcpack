@@ -1,4 +1,4 @@
-# ``ALCPack``
+# ```ALCPack```
 
 A python package to create an edge between any two given nodes in a simple, connected, and undirected graph via a sequence of local complementation operations.
 
