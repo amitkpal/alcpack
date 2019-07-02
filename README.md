@@ -19,7 +19,7 @@ To install `ALCPack` using [**pip**](https://pip.pypa.io/en/stable/):
 >
 
 
-The steps to build the package locally for installation via [**pip**](https://pip.pypa.io/en/stable/) are given in [**ALCPack_References**](documentation/alcpack_references.pdf), available in the *documentation* folder. 
+The steps to build the package locally for installation via [**pip**](https://pip.pypa.io/en/stable/) are given in **ALCPack_References**, available in the *documentation* folder. 
 
 
 ### Use
@@ -39,7 +39,7 @@ To call `ALCPack` functions in the Python 3.0 (or higher) environment,
 
 3. **alc_function**(G, path): *Performs adaptive local complementation operation on the input graph G w.r.t. the chosen simple path 'path'. Returns the modified graph with an edge between the source and the target nodes*  
 
-Details of the functions along with essential background information and comprehensive examples are availale in  [**ALCPack_References**](documentation/alcpack_references.pdf). 
+Details of the functions along with essential background information and comprehensive examples are availale in  **ALCPack_References**. 
 
 
 ### Citation
