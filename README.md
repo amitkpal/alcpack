@@ -62,29 +62,30 @@ The parameters used in the functions are as below.
 
 >
 >**path**: List of nodes, Input parameter
->
->Represents a path between a source (first node in 'path') and a distination (last node in 'path')
+>Represents a path between a source (first node in 'path') and a destination (last node in 'path')
 >
  
 > 
 >**target**: Node, Input parameter
->
 >Represents a node with respect to which the local complementation operation is performed
 >
 
 
 **Output**        
    
-**H**: NetworkX graph
+>   
+>**H**: NetworkX graph, Output parameter 
+>Transformed graph due to ALCPack functions
+>
 
-   Output parameter -- transformed graph due to ALCPack functions
-         
-**n**: Integer
+>
+>**n**: Integer, Output parameter 
+>Takes value 1 or 2, represents the category of the input 'path'
+>
 
-   Output parameter -- takes value 1 or 2, represents the category of the input 'path'
-  
-**newpath**: List of nodes 
-
-         Output parameter -- category 1 path 
+>
+>**newpath**: List of nodes, Output parameter
+>Category 1 path
+>
          
 See **ALCPack_References** for more details.          
