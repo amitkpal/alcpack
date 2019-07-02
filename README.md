@@ -1,28 +1,37 @@
-# ALCPack
+# `ALCPack`
 
 A python package to create an edge between any two given nodes in a simple, connected, and undirected graph via a sequence of local complementation operations.
 
 ### Requirements
 
-ALCPack is developed based on [**Python 3.0**](https://www.python.org/download/releases/3.0/) (or more recent releases), and uses [**NetworkX**](https://networkx.github.io) -- A python package to analyze complex networks
+`ALCPack` is developed based on [**Python 3.0**](https://www.python.org/download/releases/3.0/) (or more recent releases), and uses [**NetworkX**](https://networkx.github.io) -- A python package to analyze complex networks
 
 
 
 ### Installation
 
-To install ALCPack using **pip**:
+To install `ALCPack` using [**pip**](https://pip.pypa.io/en/stable/):
 
 >
->$ python -m pip install --upgrade pip
+>$ python3 -m pip install --upgrade pip
 >
->$ python -m pip install alcpack
+>$ python3 -m pip install alcpack
 >
 
 
-The steps to build the package locally for installation via **pip** are given in [**ALCPack_References**](documentation/alcpack_references.pdf), available in the *documentation* folder 
+The steps to build the package locally for installation via [**pip**](https://pip.pypa.io/en/stable/) are given in [**ALCPack_References**](documentation/alcpack_references.pdf), available in the *documentation* folder 
 
 
+### Description 
 
+ALCPack provides three functions, as listed below.
+
+1. **local_complementation**(G,target)
+   Performs a local complementation operation on the input graph G w.r.t. the node 'target' and returns the transformed graph 
+2. **path_category**(G,path)
+   Determines the category of a simple path connecting two chosen nodes in a simple, connected, and undirected graph, and distills a category 1 path out of the chosen path, if the chosen path is of category 2.  
+3. **alc_function**(G,path)
+   Adaptive local complementation operation on the input graph G w.r.t. the chosen simple path 'path'.  
 
 
 ### Citation
