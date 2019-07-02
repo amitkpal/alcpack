@@ -1,4 +1,4 @@
-# ```json {ALCPack}```
+# `ALCPack`
 
 A python package to create an edge between any two given nodes in a simple, connected, and undirected graph via a sequence of local complementation operations.
 
@@ -55,24 +55,24 @@ The parameters used in the functions are as below.
 
 **Input**
 
-G: Networkx graph
+**G**: Networkx graph
    Input parameter
   
-path: List of nodes 
-      Input parameter -- represents a path between a source (first node in 'path') and a target (last node in 'path')
+**path**: List of nodes 
+      Input parameter -- represents a path between a source (first node in 'path') and a distination (last node in 'path')
       
-target: Node
+**target**: Node
         Input parameter -- represents a node with respect to which the local complementation operation is performed
         
 **Output**        
    
-H: NetworkX graph
+**H**: NetworkX graph
    Output parameter -- transformed graph due to ALCPack functions
          
-n: Integer
+**n**: Integer
    Output parameter -- takes value 1 or 2, represents the category of the input 'path'
   
-newpath: List of nodes 
+**newpath**: List of nodes 
          Output parameter -- category 1 path 
          
 See **ALCPack_References** for more details.          
