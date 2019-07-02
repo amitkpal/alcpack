@@ -55,18 +55,24 @@ The parameters used in the functions are as below.
 
 **Input**
 
-**G**: Networkx graph
+>
+>**G**: Networkx graph, Input parameter
+>
 
-   Input parameter
-  
-**path**: List of nodes 
 
-      Input parameter -- represents a path between a source (first node in 'path') and a distination (last node in 'path')
-      
-**target**: Node
+>
+>**path**: List of nodes, Input parameter
+>
+>Represents a path between a source (first node in 'path') and a distination (last node in 'path')
+>
+ 
+> 
+>**target**: Node, Input parameter
+>
+>Represents a node with respect to which the local complementation operation is performed
+>
 
-        Input parameter -- represents a node with respect to which the local complementation operation is performed
-        
+
 **Output**        
    
 **H**: NetworkX graph
