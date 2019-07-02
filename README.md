@@ -29,7 +29,7 @@ The steps to build the package locally for installation via [**pip**](https://pi
 
 2. **path_category**(G, path): *Determines the category of a simple path connecting two chosen nodes in a simple, connected, and undirected graph, and distills a category 1 path out of the chosen path, if the chosen path is of category 2. Returns the category (category 1 or category 2) of the chosenn path, and a distilled category 1 path (chosen path) if the chosen path is of category 2 (category 1)*  
 
-3. **alc_function**(G, path): *Performs adaptive local complementation operation on the input graph G w.r.t. the chosen simple path 'path'. Returns the modified graph with an edge between the source and the target nodes*  
+3. **alc_function**(G, path): *Performs adaptive local complementation operation on the input graph G w.r.t. the chosen simple path 'path'. Returns the modified graph with an edge between the source and the destination nodes*  
 
 
 ## Use
