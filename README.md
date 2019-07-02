@@ -2,10 +2,10 @@
 
 A python package to create an edge between any two given nodes in a simple, connected, and undirected graph via a sequence of local complementation operations.
 
+
 ## Requirements
 
 `ALCPack` is developed based on [**Python 3.0**](https://www.python.org/download/releases/3.0/) (or more recent releases), and uses [**NetworkX**](https://networkx.github.io) -- A python package to analyze complex networks
-
 
 
 ## Installation
@@ -18,8 +18,7 @@ To install `ALCPack` using [**pip**](https://pip.pypa.io/en/stable/):
 >$ python3 -m pip install alcpack
 >
 
-
-The steps to build the package locally for installation via [**pip**](https://pip.pypa.io/en/stable/) are given in **ALCPack_References**, available in the *documentation* folder. 
+The steps to build the package locally for installation via [**pip**](https://pip.pypa.io/en/stable/) are given in **ALCPack_References**, available in the ***documentation*** folder. 
 
 
 ## Description 
@@ -31,8 +30,6 @@ The steps to build the package locally for installation via [**pip**](https://pi
 2. **path_category**(G, path): *Determines the category of a simple path connecting two chosen nodes in a simple, connected, and undirected graph, and distills a category 1 path out of the chosen path, if the chosen path is of category 2. Returns the category (category 1 or category 2) of the chosenn path, and a distilled category 1 path (chosen path) if the chosen path is of category 2 (category 1) *  
 
 3. **alc_function**(G, path): *Performs adaptive local complementation operation on the input graph G w.r.t. the chosen simple path 'path'. Returns the modified graph with an edge between the source and the target nodes*  
-
-Details of the functions along with essential background information and comprehensive examples are availale in  **ALCPack_References**. 
 
 
 ## Use
@@ -93,4 +90,5 @@ The parameters used in the functions are as below.
 >Category 1 path
 >
          
-See **ALCPack_References** for more details.          
+        
+Information on the theoretical background of `ALCPack` is given in  **ALCPack_References**, which is available in the ***documentation*** folder. 
